@@ -22,7 +22,7 @@ const Work = () => {
               exit='hidden'
               className='h2 xl:mt-12'
             >
-              My work <span className='text-accent'>.</span>
+             PROJECTS <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -31,8 +31,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium.
+              "Throughout my academic career, I've participated in several projects, enhancing my software development skills and technical knowledge. I'm eager to apply this expertise in a professional setting, contributing to innovative solutions and team success."
             </motion.p>
           </div>
 

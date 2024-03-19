@@ -1,36 +1,22 @@
-// links
-import Link from 'next/link';
-
-// icons
-import {
-  RiYoutubeLine,
-  RiInstagramLine,
-  RiFacebookLine,
-  RiDribbbleLine,
-  RiBehanceLine,
-  RiPinterestLine,
-} from 'react-icons/ri';
+import Link from "next/link";
+import { RiLinkedinBoxLine } from "react-icons/ri";
+import { HiOutlineMail } from "react-icons/hi"; // For Email
+import { AiFillGithub } from "react-icons/ai"; // For GitHub
 
 const Socials = () => {
   return (
-    <div className='flex items-center gap-x-5 text-lg'>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiYoutubeLine />
+    <div
+      style={{ display: "flex", justifyContent: "flex-end", width: "100%" }}
+      className="items-center gap-x-5 text-lg"
+    >
+      <Link href="https://github.com/yourusername">
+        <AiFillGithub />
       </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiFacebookLine />
+      <Link href="mailto:your.email@example.com" passHref>
+        <HiOutlineMail />
       </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiInstagramLine />
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiDribbbleLine />
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiBehanceLine />
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiPinterestLine />
+      <Link href="https://www.linkedin.com/in/yourprofile">
+        <RiLinkedinBoxLine />
       </Link>
     </div>
   );
