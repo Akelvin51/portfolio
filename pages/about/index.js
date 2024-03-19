@@ -128,7 +128,7 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-s tracking-[1px] capitalize leading-[1.4] max-w-[100px]">
-                  <span className=" text-accent text-xl">Hi</span><br></br> I'm Kelvin and I'm a software engineer
+                <span className="text-accent text-xl">Hi</span><br></br> I&apos;m Kelvin and I&apos;m a software engineer
                 </div>
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
