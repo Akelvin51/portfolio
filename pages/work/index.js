@@ -31,7 +31,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              "Throughout my academic career, I've participated in several projects, enhancing my software development skills and technical knowledge. I'm eager to apply this expertise in a professional setting, contributing to innovative solutions and team success."
+              &quot;Throughout my academic career, I&apos;ve participated in several projects, enhancing my software development skills and technical knowledge. I&apos;m eager to apply this expertise in a professional setting, contributing to innovative solutions and team success.&quot;
             </motion.p>
           </div>
 
