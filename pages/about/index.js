@@ -62,12 +62,14 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Software Development - Southern Alberta Institute of Technology, SAIT, AB",
-        stage: "2022"
+        title:
+          "Software Development - Southern Alberta Institute of Technology, SAIT, AB",
+        stage: "2022",
       },
       {
-        title: "Software Development - Southern Alberta Institute of Technology, SAIT, AB",
-        stage: "2022"
+        title:
+          "Software Development - Southern Alberta Institute of Technology, SAIT, AB",
+        stage: "2022",
       },
     ],
   },
@@ -108,7 +110,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth magnificent designs.
+            Captivating <span className="text-accent">stories</span> birth
+            magnificent designs.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -116,8 +119,7 @@ const About = () => {
             animate="show"
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
-          >
-          </motion.p>
+          ></motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
             initial="hidden"
@@ -128,7 +130,8 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-s tracking-[1px] capitalize leading-[1.4] max-w-[100px]">
-                <span className="text-accent text-xl">Hi</span><br></br> I&apos;m Kelvin and I&apos;m a software engineer
+                  <span className="text-accent text-xl">Hi</span>
+                  <br></br> I&apos;m Kelvin and I&apos;m a software engineer
                 </div>
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
@@ -153,7 +156,10 @@ const About = () => {
             {aboutData.map((item, itemIndex) => (
               <div
                 key={`item-${itemIndex}`} // Unique key for each item
-                className={`${index === itemIndex && "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                className={`${
+                  index === itemIndex &&
+                  "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
+                } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                 onClick={() => setIndex(itemIndex)}
               >
                 {item.title}
@@ -171,7 +177,12 @@ const About = () => {
                 <div>{infoItem.stage}</div>
                 <div className="flex gap-x-4">
                   {infoItem.icons?.map((icon, iconIndex) => (
-                    <div key={`icon-${infoItemIndex}-${iconIndex}`} className="text-2xl text-white">{icon}</div>
+                    <div
+                      key={`icon-${infoItemIndex}-${iconIndex}`}
+                      className="text-2xl text-white"
+                    >
+                      {icon}
+                    </div>
                   ))}
                 </div>
               </div>
